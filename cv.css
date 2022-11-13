@@ -1,0 +1,284 @@
+body {
+  width: 96%;
+  margin: 0 auto;
+  background-color: #E0E2DB;
+  background-image:
+    repeating-linear-gradient(-45deg,
+      #fff 3px,
+      #fff 20px,
+      #d2d8d6 10px,
+      #e9c4c9 50px)
+
+}
+
+header {
+  margin: 0px;
+  padding: 1%;
+  background-color: #2E3532;
+  border-width: 2px;
+  border-color: black;
+  border-radius: 16px;
+}
+
+nav {
+  display: flex;
+  flex-flow: row wrap;
+ /* background-color: #3d8577;*/
+  justify-content: space-between;
+}
+
+.photo {
+  /*background-color: #c9e6c8;*/
+  flex-basis: 5%;
+  margin: 1%;
+  flex-grow: 0;
+}
+
+.name {
+  /*background-color: #309e2c;*/
+  margin: 1%;
+  flex-basis: 5%;
+  flex-grow: 1;
+  font-size: large;
+}
+
+a[href^="mailto"]:hover:after {
+  content: " > " attr(title);
+}
+
+a {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+
+}
+
+.social_media {
+  position: relative;
+  flex-basis: 5%;
+  flex-grow: 1;
+  /*background-color: #1bf314;*/
+}
+
+.social-media-list {
+  /*background-color: #91bd8f;*/
+  /*width: 50%;*/  
+  margin: 2% 0% 2% 2%;
+padding-right: 0px;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+height: auto;
+width: 60%;
+ 
+}
+
+.social-media-list li {
+  display: inline-flex;
+  width: 10%;
+  padding: 1%;
+  /*width: 200px;*/
+  /*background-color: #FF7B5C;*/
+}
+
+.social-media-list img {
+  /*width: 15%;
+  padding: 3.5%;*/
+  /*width: 200px;*/
+  /*background-color: #FF7B5C;*/
+  width: 75%;
+  height: auto;
+}
+
+/*.a img {
+  padding: 1px;
+  border-radius: 5px;
+  background-color: rgb(35, 175, 222);
+  font-size: 10px;
+
+  width: 50%;
+  height: 10%;
+  /*width: 1%;
+  max-width: 100%;
+  margin-top: 2em;
+  font-size: 8px;
+  /*width: 100vw; height: 100vh;*/
+  /*height: auto;*
+}*/
+
+.contacte {
+  background-color: #356fb7;
+}
+
+.vidre {
+  margin-top: 1%;
+  flex-basis: 20%;
+  padding: 1%;
+  /*background-color: #8B2635;*/
+
+
+  background: #c08b93;
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(7.4px);
+  -webkit-backdrop-filter: blur(7.4px);
+  border: 1px solid rgba(95, 201, 150, 0.81);
+}
+
+/*copiat*/
+
+h2 {
+  font-family: Georgia, Times, serif;
+  font-style: italic;
+  /*width: 620px;*/
+}
+
+/*
+ header {
+     font-family:Georgia, Times, serif;
+     font-size:1.2rem; 
+     background-color:#782F2B;
+     color: #FF7B5C;
+     
+     margin: 0px;
+     padding: 20px;
+ }*/
+
+#main-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: stretch;
+}
+
+
+
+/*ul {
+     margin: 0px 0px;
+     background-color: 782F2B;
+     padding-left: 0px;
+ }
+  
+ li {
+     display: inline-flex;
+     margin-left: 0px;
+     padding-left: 3%;
+ }
+  
+ li a {
+     text-decoration: none;
+     color: rgb(255, 255, 255); 
+     margin: 7px 0px 7px 17px;
+ }*/
+
+.bio {
+  flex-basis: 40%;
+  flex-grow: 1;
+  background-color: white;
+  padding: 1%;
+}
+
+.bio img {
+  width: 3%;
+  min-width: 100px;
+  max-width: 300px;
+  float: left;
+  margin: 1%;
+}
+
+.contact {
+  flex-basis: 20%;
+  padding: 1%;
+  background-color: #FF7B5C;
+}
+
+footer {
+  background-color: #782F2B;
+  margin: 0px;
+  padding: 20px;
+  text-align: center;
+  color: white
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  padding: 10px;
+}
+
+.grid-item {
+  background-color: #D2D4C8;
+  border: 1px solid rgba(255, 255, 255, 0.8);
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+}
+
+.grid-item img {
+  display: block;
+  margin: 0 auto;
+  width: 30%;
+}
+
+.grid-item p {
+  font-size: large;
+  margin-right: auto;
+}
+
+.checked {
+  color: rgb(255, 238, 0);
+}
+
+.grid-item .checked {
+  color: rgb(30, 166, 219);
+}
+/**********************************************************/
+.linea-tiempo {
+  position: relative;
+  width: 330px;
+  max-width: 15vw;
+  height: 50%;
+  font-family: Arial;
+}
+
+.momento {
+  position: relative;
+  width: 70%;
+  box-sizing: border-box;
+}
+
+.momento:nth-child(even) {
+  left: 58%;
+}
+
+.linea-tiempo::before {
+  content: '';
+  position: absolute;
+  width: 3px;
+  background-color: rgb(255, 255, 255);
+  left: 50%;
+  height: 100%;
+  border-radius: 10px;
+}
+
+.momento::after {
+  content: '';
+  position: absolute;
+  top: calc(30% + 10px);
+  right: 46px;
+  height: 20px;
+  width: 20px;
+  background-color: rgb(82, 16, 16);
+  border-radius: 30%;
+}
+.momento:nth-child(even)::after {
+  left: calc(-11.11% - 8.5px);
+}
+
+#year {
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+}
+
+#link {
+  width: 12px;
+}

@@ -31,6 +31,17 @@ It's expected to find the skills of who could work in the company, and evaluate 
 Finally, on the right side of the page, there is a kind of timeline with the studies completed, the level of languages known, and some projects created that can be useful to see the way of work.
 ## Authors
 
+## Link to the GitHub page
+
+https://juliaviau.github.io/hypermediaprojectcvjulia.github.io/
+
+## Design proposal using figma
+<img src="https://github.com/Juliaviau/hypermediaprojectcvjulia.github.io/blob/main/images/CVcvFigma.png" data-canonical-src="https://gyazo.com/eb5c5741b6a9a16c692170a41a49c858.png" width="70%" align="center" />
+
+https://www.figma.com/file/1AOYI6KumY3z10k1whOwRj/Hypermedia-project.-Part-1.-CV?node-id=0%3A1&t=2yuLulPYFs8hXrz6-1
+
+## Author
+
 Júlia Vilà Aupí
 
 [@Juliaviau](https://github.com/Juliaviau)
